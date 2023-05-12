@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="all.min.css" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+        .fa-sink:before {
+            content: "\e06d"
+        }
+
+        .fa-bag-shopping:before {
+            content: "أضف إلى العربة"
+        }
+
+        .fa-0:before {
+            content: "O"
+        }
+
+        .fa-1:before {
+            content: "O"
+        }
+
+        .fa-2:before {
+            content: "O"
+        }
+
+        .fa-3:before {
+            content: "O"
+        }
+
+        .fa-4:before {
+            content: "O"
+        }
+
+        .fa-5:before {
+            content: "O"
+        }
+
+        .fa-6:before {
+            content: "O"
+        }
+
+        .fa-7:before {
+            content: "O"
+        }
+
+        .fa-8:before {
+            content: "O"
+        }
+
+        .fa-9:before {
+            content: "O"
+        }
+
+        .fa-fill-drip:before {
+            content: "O"
+        }
+
+        .fa-arrows-to-circle:before {
+            content: "O"
+        }
+
+        .fa-chevron-circle-right:before,
+        .fa-circle-chevron-right:before {
+            content: "O"
+        }
+
+        .fa-at:before {
+            content: "O"
+        }
+
+        .fa-trash-alt:before,
+        .fa-trash-can:before {
+            content: "إزالة";
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="project">
+        <header>
+            <div class="logo">welcome</div>
+            <i class="bag">عربة التسوق</i>
+            <div class="shoping-cart">
+                <i class="fa-solid fa-x close-page ">X</i>
+                <h2>Your Cart</h2>
+                <div class="orders">
+                </div>
+                <hr>
+                <div class="total">Total $0</div>
+                <button>شراء الآن</button>
+            </div>
+        </header>
+        <div class="container">
+            <h2>Shop Products</h2>
+            <div class="products">
+                <div class="product">
+                    <div class="image">
+                        <img src="product1.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">AEROREADY SHIRT</div>
+                        <div class="reservation">
+                            <div class="price">$25</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order "></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product2.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">WIRELESS EARBUDS</div>
+                        <div class="reservation">
+                            <div class="price">$100</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product3.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">HOODED PARKA</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product4.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">STRAW METAL BOTTEL</div>
+                        <div class="reservation">
+                            <div class="price">$24</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product5.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">METAL SUNGLASESS</div>
+                        <div class="reservation">
+                            <div class="price">$50</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product6.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">BACK HAT</div>
+                        <div class="reservation">
+                            <div class="price">$50</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product7.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">BACKPACK</div>
+                        <div class="reservation">
+                            <div class="price">$70</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product4.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product5.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product6.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product1.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product2.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product7.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product1.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product6.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product4.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product3.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product1.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$75</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product2.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$55</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product7.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$40</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product5.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$60</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product6.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$35</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product4.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$100</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product8.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src="product3.jpg" >
+                    </div>
+                    <div class="info">
+                        <div class="name">ULTRABOOST 22</div>
+                        <div class="reservation">
+                            <div class="price">$45</div>
+                            <button class="btn">
+                                <i class=" fa-solid fa-bag-shopping add_order"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
